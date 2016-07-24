@@ -1,5 +1,6 @@
 #! /bin/bash
 
 pdflatex slides.tex
+bibtex slides.bib
 pdflatex slides.tex
 evince slides.pdf
